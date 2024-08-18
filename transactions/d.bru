@@ -1,0 +1,21 @@
+meta {
+  name: d
+  type: http
+  seq: 5
+}
+
+delete {
+  url: http://localhost:3000/66bfdbf5c9a5a8e01a9eb876
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "title": "Novo Título",
+    "type": "despesa",
+    "category": "Alimentação",
+    "amount": 500
+  }
+  
+}
